@@ -1,0 +1,506 @@
+CPiQWxKielTJLG0R1StE 23:25:29.354201 raft.go:540: logger initialized
+CPiQWxKielTJLG0R1StE 23:25:29.405036 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}]
+CPiQWxKielTJLG0R1StE 23:25:29.405048 raft.go:856: server: 3 append lastapplied: 0
+CPiQWxKielTJLG0R1StE 23:25:29.456028 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}]
+CPiQWxKielTJLG0R1StE 23:25:29.456281 raft.go:856: server: 3 append lastapplied: 0
+CPiQWxKielTJLG0R1StE 23:25:29.507138 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}]
+CPiQWxKielTJLG0R1StE 23:25:29.507230 raft.go:856: server: 3 append lastapplied: 0
+CPiQWxKielTJLG0R1StE 23:25:29.557609 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}]
+CPiQWxKielTJLG0R1StE 23:25:29.557644 raft.go:856: server: 3 append lastapplied: 0
+CPiQWxKielTJLG0R1StE 23:25:29.608351 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}]
+CPiQWxKielTJLG0R1StE 23:25:29.608373 raft.go:856: server: 3 append lastapplied: 0
+CPiQWxKielTJLG0R1StE 23:25:29.659479 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}]
+CPiQWxKielTJLG0R1StE 23:25:29.659502 raft.go:856: server: 3 append lastapplied: 0
+CPiQWxKielTJLG0R1StE 23:25:29.684276 raft.go:413: leader receiver success from 4 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.684315 raft.go:413: leader receiver success from 0 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.684294 raft.go:413: leader receiver success from 2 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.684405 raft.go:413: leader receiver success from 1 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.710130 raft.go:765: leader appended logentry: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+CPiQWxKielTJLG0R1StE 23:25:29.710271 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} ], LeaderCommit = 0] to 0
+CPiQWxKielTJLG0R1StE 23:25:29.710303 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} ], LeaderCommit = 0] to 1
+CPiQWxKielTJLG0R1StE 23:25:29.710325 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} ], LeaderCommit = 0] to 2
+CPiQWxKielTJLG0R1StE 23:25:29.710344 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} ], LeaderCommit = 0] to 4
+CPiQWxKielTJLG0R1StE 23:25:29.710635 raft.go:413: leader receiver success from 0 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.710655 raft.go:802: reply with: true on term: 1, from: 0
+CPiQWxKielTJLG0R1StE 23:25:29.710673 raft.go:803: current term: 1
+CPiQWxKielTJLG0R1StE 23:25:29.710686 raft.go:808: leader: 3 receive suceess from 0
+CPiQWxKielTJLG0R1StE 23:25:29.710735 raft.go:413: leader receiver success from 1 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.710751 raft.go:802: reply with: true on term: 1, from: 1
+CPiQWxKielTJLG0R1StE 23:25:29.710765 raft.go:413: leader receiver success from 4 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.710765 raft.go:803: current term: 1
+CPiQWxKielTJLG0R1StE 23:25:29.710789 raft.go:808: leader: 3 receive suceess from 1
+CPiQWxKielTJLG0R1StE 23:25:29.710810 raft.go:413: leader receiver success from 2 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.710809 raft.go:813: return after go applystatemachine
+CPiQWxKielTJLG0R1StE 23:25:29.710824 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+CPiQWxKielTJLG0R1StE 23:25:29.710851 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:29.783834 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:29.784019 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:29.784090 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:29.784149 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:29.784698 raft.go:413: leader receiver success from 4 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.784698 raft.go:413: leader receiver success from 0 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.784846 raft.go:413: leader receiver success from 2 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.784698 raft.go:413: leader receiver success from 1 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.885076 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:29.885194 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:29.885273 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:29.885302 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:29.885921 raft.go:413: leader receiver success from 2 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.886068 raft.go:413: leader receiver success from 4 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.885936 raft.go:413: leader receiver success from 1 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.885936 raft.go:413: leader receiver success from 0 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.986397 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:29.986579 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:29.986649 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:29.986681 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:29.987234 raft.go:413: leader receiver success from 4 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.987250 raft.go:413: leader receiver success from 0 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.987259 raft.go:413: leader receiver success from 2 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:29.987369 raft.go:413: leader receiver success from 1 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.087761 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.087872 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.087902 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.087926 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.088570 raft.go:413: leader receiver success from 4 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.088623 raft.go:413: leader receiver success from 0 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.088690 raft.go:413: leader receiver success from 2 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.089064 raft.go:413: leader receiver success from 1 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.188789 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.188942 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.188985 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.189010 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.189573 raft.go:413: leader receiver success from 0 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.189609 raft.go:413: leader receiver success from 1 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.189582 raft.go:413: leader receiver success from 2 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.189695 raft.go:413: leader receiver success from 4 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.290120 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.290352 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.290397 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.290418 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.291042 raft.go:413: leader receiver success from 4 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.291075 raft.go:413: leader receiver success from 1 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.291217 raft.go:413: leader receiver success from 0 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.291335 raft.go:413: leader receiver success from 2 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.295034 raft.go:765: leader appended logentry: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}]
+CPiQWxKielTJLG0R1StE 23:25:30.295131 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{102 1 2} &{103 1 3} ], LeaderCommit = 1] to 0
+CPiQWxKielTJLG0R1StE 23:25:30.295174 raft.go:765: leader appended logentry: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}]
+CPiQWxKielTJLG0R1StE 23:25:30.295242 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{102 1 2} &{103 1 3} ], LeaderCommit = 1] to 0
+CPiQWxKielTJLG0R1StE 23:25:30.295345 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{102 1 2} &{103 1 3} ], LeaderCommit = 1] to 1
+CPiQWxKielTJLG0R1StE 23:25:30.295276 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{102 1 2} &{103 1 3} ], LeaderCommit = 1] to 1
+CPiQWxKielTJLG0R1StE 23:25:30.295439 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{102 1 2} &{103 1 3} ], LeaderCommit = 1] to 2
+CPiQWxKielTJLG0R1StE 23:25:30.295467 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{102 1 2} &{103 1 3} ], LeaderCommit = 1] to 4
+CPiQWxKielTJLG0R1StE 23:25:30.295415 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{102 1 2} &{103 1 3} ], LeaderCommit = 1] to 2
+CPiQWxKielTJLG0R1StE 23:25:30.295540 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{102 1 2} &{103 1 3} ], LeaderCommit = 1] to 4
+CPiQWxKielTJLG0R1StE 23:25:30.295874 raft.go:413: leader receiver success from 4 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.295892 raft.go:802: reply with: true on term: 1, from: 4
+CPiQWxKielTJLG0R1StE 23:25:30.295909 raft.go:803: current term: 1
+CPiQWxKielTJLG0R1StE 23:25:30.295923 raft.go:808: leader: 3 receive suceess from 4
+CPiQWxKielTJLG0R1StE 23:25:30.295988 raft.go:413: leader receiver success from 4 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.296012 raft.go:802: reply with: true on term: 1, from: 4
+CPiQWxKielTJLG0R1StE 23:25:30.296030 raft.go:803: current term: 1
+CPiQWxKielTJLG0R1StE 23:25:30.296046 raft.go:808: leader: 3 receive suceess from 4
+CPiQWxKielTJLG0R1StE 23:25:30.391475 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.393078 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.393104 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.393118 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:30.393816 raft.go:413: leader receiver success from 4 on index: 3
+CPiQWxKielTJLG0R1StE 23:25:30.493540 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.493669 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.493699 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.493719 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.494220 raft.go:413: leader receiver success from 4 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.594398 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.594480 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.594501 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.594518 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:30.594891 raft.go:413: leader receiver success from 4 on index: 3
+CPiQWxKielTJLG0R1StE 23:25:30.695028 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.695114 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.695154 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.695182 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.695960 raft.go:413: leader receiver success from 4 on index: 1
+CPiQWxKielTJLG0R1StE 23:25:30.796121 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.796212 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.796241 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.796266 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:30.897370 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.897531 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.897594 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.897663 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:30.998165 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.998281 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.998370 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:30.998409 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:31.098698 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.098796 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.098820 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.098839 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:31.199804 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.199896 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.199925 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.199950 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:31.300835 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.300902 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.300930 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.300952 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:31.401901 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.402031 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.402083 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.402109 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:31.503164 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.503239 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.503267 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.503291 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:31.604402 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.604467 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.604494 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.604517 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:31.705569 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.705624 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.705653 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.705677 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:31.806269 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.806326 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.806364 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.806389 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:31.906990 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.907053 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.907072 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:31.907091 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:32.007896 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:32.007969 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:32.007992 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:32.008012 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:32.109072 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:32.109173 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:32.109204 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:32.109265 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:32.210338 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:32.210458 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:32.210533 raft.go:724: nextindex - 1 = 0
+CPiQWxKielTJLG0R1StE 23:25:32.210567 raft.go:724: nextindex - 1 = 2
+CPiQWxKielTJLG0R1StE 23:25:32.306974 raft.go:765: leader appended logentry: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:32.307082 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{102 1 2} &{103 1 3} &{400 1 4} ], LeaderCommit = 1] to 0
+CPiQWxKielTJLG0R1StE 23:25:32.307126 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{102 1 2} &{103 1 3} &{400 1 4} ], LeaderCommit = 1] to 1
+CPiQWxKielTJLG0R1StE 23:25:32.307261 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{102 1 2} &{103 1 3} &{400 1 4} ], LeaderCommit = 1] to 2
+CPiQWxKielTJLG0R1StE 23:25:32.307296 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 2, PrevLogTerm = 1, Entries = [&{103 1 3} &{400 1 4} ], LeaderCommit = 1] to 4
+CPiQWxKielTJLG0R1StE 23:25:32.358519 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:32.358588 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:32.408714 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:32.408801 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:32.459388 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:32.459460 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:32.510133 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:32.510200 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:32.521555 raft.go:163: receive requestVote from:0, with args:3 3 5
+CPiQWxKielTJLG0R1StE 23:25:32.560718 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:32.560798 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:32.611014 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:32.611108 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:32.629968 raft.go:163: receive requestVote from:4, with args:3 1 6
+CPiQWxKielTJLG0R1StE 23:25:32.661266 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:32.661351 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:32.711891 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:32.711959 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:32.902670 raft.go:163: receive requestVote from:0, with args:3 3 6
+CPiQWxKielTJLG0R1StE 23:25:33.073108 raft.go:163: receive requestVote from:4, with args:3 1 7
+CPiQWxKielTJLG0R1StE 23:25:33.257810 raft.go:163: receive requestVote from:0, with args:3 3 7
+CPiQWxKielTJLG0R1StE 23:25:33.387612 raft.go:163: receive requestVote from:4, with args:3 1 8
+CPiQWxKielTJLG0R1StE 23:25:33.725742 raft.go:163: receive requestVote from:0, with args:3 3 8
+CPiQWxKielTJLG0R1StE 23:25:33.828723 raft.go:163: receive requestVote from:4, with args:3 1 9
+CPiQWxKielTJLG0R1StE 23:25:34.223130 raft.go:163: receive requestVote from:0, with args:3 3 9
+CPiQWxKielTJLG0R1StE 23:25:34.270384 raft.go:163: receive requestVote from:4, with args:3 1 10
+CPiQWxKielTJLG0R1StE 23:25:34.573882 raft.go:163: receive requestVote from:0, with args:3 3 10
+CPiQWxKielTJLG0R1StE 23:25:34.684566 raft.go:163: receive requestVote from:4, with args:3 1 11
+CPiQWxKielTJLG0R1StE 23:25:35.021366 raft.go:163: receive requestVote from:0, with args:3 3 11
+CPiQWxKielTJLG0R1StE 23:25:35.087966 raft.go:163: receive requestVote from:4, with args:3 1 12
+CPiQWxKielTJLG0R1StE 23:25:35.446059 raft.go:163: receive requestVote from:4, with args:3 1 13
+CPiQWxKielTJLG0R1StE 23:25:35.495935 raft.go:163: receive requestVote from:0, with args:3 3 12
+CPiQWxKielTJLG0R1StE 23:25:35.870865 raft.go:163: receive requestVote from:4, with args:3 1 14
+CPiQWxKielTJLG0R1StE 23:25:35.919758 raft.go:163: receive requestVote from:0, with args:3 3 14
+CPiQWxKielTJLG0R1StE 23:25:35.970345 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:35.970452 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:36.020430 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:36.020548 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:36.071531 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:36.071641 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:36.121838 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:36.121933 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:36.172471 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:36.172605 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:36.178519 raft.go:163: receive requestVote from:4, with args:3 1 15
+CPiQWxKielTJLG0R1StE 23:25:36.223734 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:36.223850 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:36.273789 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:36.273853 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:36.355823 raft.go:163: receive requestVote from:0, with args:3 3 15
+CPiQWxKielTJLG0R1StE 23:25:36.590498 raft.go:163: receive requestVote from:4, with args:3 1 16
+CPiQWxKielTJLG0R1StE 23:25:36.745412 raft.go:163: receive requestVote from:0, with args:3 3 16
+CPiQWxKielTJLG0R1StE 23:25:37.057928 raft.go:163: receive requestVote from:4, with args:3 1 17
+CPiQWxKielTJLG0R1StE 23:25:37.209508 raft.go:163: receive requestVote from:0, with args:3 3 17
+CPiQWxKielTJLG0R1StE 23:25:37.516699 raft.go:163: receive requestVote from:0, with args:3 3 18
+CPiQWxKielTJLG0R1StE 23:25:37.800945 raft.go:163: receive requestVote from:4, with args:3 1 19
+CPiQWxKielTJLG0R1StE 23:25:37.833612 raft.go:163: receive requestVote from:0, with args:3 3 19
+CPiQWxKielTJLG0R1StE 23:25:37.884508 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:37.884614 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:37.934622 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:37.934720 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:37.985038 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:37.985225 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:38.035642 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:38.035827 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:38.086311 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:38.086458 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:38.136561 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:38.136731 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:38.186679 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:38.186794 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:38.190324 raft.go:163: receive requestVote from:4, with args:3 1 20
+CPiQWxKielTJLG0R1StE 23:25:38.237425 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:38.237572 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:38.329923 raft.go:163: receive requestVote from:0, with args:3 3 20
+CPiQWxKielTJLG0R1StE 23:25:38.668090 raft.go:163: receive requestVote from:0, with args:3 3 21
+CPiQWxKielTJLG0R1StE 23:25:39.084832 raft.go:163: receive requestVote from:4, with args:3 1 22
+CPiQWxKielTJLG0R1StE 23:25:39.157972 raft.go:163: receive requestVote from:0, with args:3 3 22
+CPiQWxKielTJLG0R1StE 23:25:39.459149 raft.go:163: receive requestVote from:4, with args:3 1 23
+CPiQWxKielTJLG0R1StE 23:25:39.502337 raft.go:163: receive requestVote from:0, with args:3 3 23
+CPiQWxKielTJLG0R1StE 23:25:39.861895 raft.go:163: receive requestVote from:4, with args:3 1 24
+CPiQWxKielTJLG0R1StE 23:25:39.901034 raft.go:163: receive requestVote from:0, with args:3 3 24
+CPiQWxKielTJLG0R1StE 23:25:39.952610 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:39.952772 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:40.002777 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:40.002917 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:40.053900 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:40.054032 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:40.104887 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:40.104993 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:40.155960 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:40.156115 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:40.206091 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:40.206300 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:40.250904 raft.go:163: receive requestVote from:4, with args:3 1 25
+CPiQWxKielTJLG0R1StE 23:25:40.256808 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:40.256867 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:40.293842 raft.go:163: receive requestVote from:0, with args:3 3 25
+CPiQWxKielTJLG0R1StE 23:25:40.307653 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:40.307721 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:40.358142 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:40.358192 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:40.408738 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:40.408828 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:40.459086 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:40.459173 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:40.509485 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:40.509556 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:40.560317 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:40.560470 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:40.590494 raft.go:163: receive requestVote from:4, with args:3 1 26
+CPiQWxKielTJLG0R1StE 23:25:40.611240 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:40.611322 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:40.661605 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 1, Command: 102}, {Term: 1, Command: 103}, {Term: 1, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:40.661749 raft.go:856: server: 3 append lastapplied: 1
+CPiQWxKielTJLG0R1StE 23:25:40.730440 raft.go:163: receive requestVote from:0, with args:3 3 26
+CPiQWxKielTJLG0R1StE 23:25:41.029893 raft.go:163: receive requestVote from:4, with args:3 1 27
+CPiQWxKielTJLG0R1StE 23:25:41.152672 raft.go:163: receive requestVote from:0, with args:3 3 27
+CPiQWxKielTJLG0R1StE 23:25:41.466860 raft.go:163: receive requestVote from:4, with args:3 1 28
+CPiQWxKielTJLG0R1StE 23:25:41.610670 raft.go:163: receive requestVote from:0, with args:3 3 28
+CPiQWxKielTJLG0R1StE 23:25:41.957449 raft.go:163: receive requestVote from:0, with args:3 3 29
+CPiQWxKielTJLG0R1StE 23:25:41.957983 raft.go:163: receive requestVote from:4, with args:3 1 29
+CPiQWxKielTJLG0R1StE 23:25:41.958333 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 3, PrevLogTerm = 3, Entries = [], LeaderCommit = 3]
+CPiQWxKielTJLG0R1StE 23:25:41.994552 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} &{201 3 3} &{400 29 4} ], LeaderCommit = 3]
+CPiQWxKielTJLG0R1StE 23:25:41.994652 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:41.994730 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:41.994762 raft.go:856: server: 3 append lastapplied: 3
+CPiQWxKielTJLG0R1StE 23:25:42.008746 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:42.008819 raft.go:856: server: 3 append lastapplied: 3
+CPiQWxKielTJLG0R1StE 23:25:42.058390 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 3, PrevLogTerm = 3, Entries = [&{400 29 4} ], LeaderCommit = 4]
+CPiQWxKielTJLG0R1StE 23:25:42.058440 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:42.058577 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:42.058594 raft.go:856: server: 3 append lastapplied: 4
+CPiQWxKielTJLG0R1StE 23:25:42.058818 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}]
+CPiQWxKielTJLG0R1StE 23:25:42.058839 raft.go:856: server: 3 append lastapplied: 4
+CPiQWxKielTJLG0R1StE 23:25:42.076307 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 4]
+CPiQWxKielTJLG0R1StE 23:25:42.076365 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.076437 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.076462 raft.go:856: server: 3 append lastapplied: 4
+CPiQWxKielTJLG0R1StE 23:25:42.109062 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.109193 raft.go:856: server: 3 append lastapplied: 4
+CPiQWxKielTJLG0R1StE 23:25:42.159009 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 4, PrevLogTerm = 29, Entries = [&{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:42.159070 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.159118 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.159162 raft.go:856: server: 3 append lastapplied: 4
+CPiQWxKielTJLG0R1StE 23:25:42.159246 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.159287 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.179364 raft.go:304: recieve appendEntrie from leader:1, with AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{300 3 4} &{301 3 5} &{500 3 6} ], LeaderCommit = 3]
+CPiQWxKielTJLG0R1StE 23:25:42.210168 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.210267 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.259756 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:42.259795 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.259941 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.259957 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.260196 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.260208 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.310243 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.310285 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.360307 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.360395 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.360853 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 4, PrevLogTerm = 29, Entries = [&{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:42.360895 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.360958 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.360974 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.410358 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.410431 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.460521 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.460578 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.461117 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:42.461184 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.461368 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.461389 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.510939 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.511014 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.561901 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.561949 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.562386 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 4, PrevLogTerm = 29, Entries = [&{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:42.562433 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.562647 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.562666 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.612106 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.612189 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.663109 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.663328 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.664080 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:42.664118 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.664173 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.664194 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.713122 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.713220 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.764289 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.764402 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.764749 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 4, PrevLogTerm = 29, Entries = [&{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:42.764798 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.765007 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.765027 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.814936 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.815024 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.865325 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.865457 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.866033 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:42.866100 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.866272 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.866296 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.915632 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.915679 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.965791 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.965813 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:42.966139 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 4, PrevLogTerm = 29, Entries = [&{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:42.966171 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.966295 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:42.966314 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.016757 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.016830 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.066959 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:43.066992 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.067087 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.067097 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.067123 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.067132 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.117717 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.117805 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.167974 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.168539 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.168631 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 4, PrevLogTerm = 29, Entries = [&{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:43.168661 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.168718 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.168742 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.218530 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.218554 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.268715 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.268746 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.268785 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:43.268810 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.268969 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.268987 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.319626 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.319672 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.369946 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.369987 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.370288 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 4, PrevLogTerm = 29, Entries = [&{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:43.370323 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.370516 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.370533 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.420511 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.420552 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.470663 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.470713 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.470874 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:43.470891 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.470975 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.470982 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.521152 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.521193 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.571341 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.571436 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.571822 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 4, PrevLogTerm = 29, Entries = [&{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:43.571868 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.572385 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.572432 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.622395 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.622538 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.672453 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.672479 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.672762 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:43.672820 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.672883 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.672905 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.723227 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.723263 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.773341 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 4, PrevLogTerm = 29, Entries = [&{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:43.773403 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.773512 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.773533 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.773571 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.773589 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.824537 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.824602 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.874245 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:43.874296 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.874494 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.874555 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.874594 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.874613 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.925334 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.925419 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.975001 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 4, PrevLogTerm = 29, Entries = [&{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:43.975050 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.975320 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.975342 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:43.975383 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:43.975404 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:44.026494 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:44.026578 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:44.075991 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:44.076043 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:44.076249 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:44.076274 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:44.076538 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:44.076557 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:44.126630 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:44.126714 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:44.176784 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 4, PrevLogTerm = 29, Entries = [&{401 29 5} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:44.176843 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:44.177127 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:44.177148 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:44.177184 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+CPiQWxKielTJLG0R1StE 23:25:44.177204 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:44.179641 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} &{500 29 6} ], LeaderCommit = 5]
+CPiQWxKielTJLG0R1StE 23:25:44.179676 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}, {Term: 29, Command: 500}]
+CPiQWxKielTJLG0R1StE 23:25:44.179843 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}, {Term: 29, Command: 500}]
+CPiQWxKielTJLG0R1StE 23:25:44.179866 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:44.227330 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}, {Term: 29, Command: 500}]
+CPiQWxKielTJLG0R1StE 23:25:44.227382 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:44.277517 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}, {Term: 29, Command: 500}]
+CPiQWxKielTJLG0R1StE 23:25:44.277567 raft.go:856: server: 3 append lastapplied: 5
+CPiQWxKielTJLG0R1StE 23:25:44.278013 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 5, PrevLogTerm = 29, Entries = [&{500 29 6} ], LeaderCommit = 6]
+CPiQWxKielTJLG0R1StE 23:25:44.278055 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}, {Term: 29, Command: 500}]
+CPiQWxKielTJLG0R1StE 23:25:44.278188 raft.go:845: in apply server: 3, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}, {Term: 29, Command: 500}]
+CPiQWxKielTJLG0R1StE 23:25:44.278209 raft.go:856: server: 3 append lastapplied: 6

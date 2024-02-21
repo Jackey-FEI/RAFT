@@ -1,0 +1,763 @@
+R2hEOe2Z5FVEXioVrick 23:25:29.353995 raft.go:540: logger initialized
+R2hEOe2Z5FVEXioVrick 23:25:29.404970 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}]
+R2hEOe2Z5FVEXioVrick 23:25:29.405010 raft.go:856: server: 1 append lastapplied: 0
+R2hEOe2Z5FVEXioVrick 23:25:29.456039 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}]
+R2hEOe2Z5FVEXioVrick 23:25:29.456125 raft.go:856: server: 1 append lastapplied: 0
+R2hEOe2Z5FVEXioVrick 23:25:29.507431 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}]
+R2hEOe2Z5FVEXioVrick 23:25:29.507470 raft.go:856: server: 1 append lastapplied: 0
+R2hEOe2Z5FVEXioVrick 23:25:29.557467 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}]
+R2hEOe2Z5FVEXioVrick 23:25:29.557551 raft.go:856: server: 1 append lastapplied: 0
+R2hEOe2Z5FVEXioVrick 23:25:29.608272 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}]
+R2hEOe2Z5FVEXioVrick 23:25:29.608322 raft.go:856: server: 1 append lastapplied: 0
+R2hEOe2Z5FVEXioVrick 23:25:29.659316 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}]
+R2hEOe2Z5FVEXioVrick 23:25:29.659432 raft.go:856: server: 1 append lastapplied: 0
+R2hEOe2Z5FVEXioVrick 23:25:29.683376 raft.go:163: receive requestVote from:3, with args:0 -1 1
+R2hEOe2Z5FVEXioVrick 23:25:29.684061 raft.go:304: recieve appendEntrie from leader:3, with AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [], LeaderCommit = 0]
+R2hEOe2Z5FVEXioVrick 23:25:29.710107 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}]
+R2hEOe2Z5FVEXioVrick 23:25:29.710143 raft.go:856: server: 1 append lastapplied: 0
+R2hEOe2Z5FVEXioVrick 23:25:29.710498 raft.go:304: recieve appendEntrie from leader:3, with AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} ], LeaderCommit = 0]
+R2hEOe2Z5FVEXioVrick 23:25:29.710530 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:29.710563 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:29.710577 raft.go:856: server: 1 append lastapplied: 0
+R2hEOe2Z5FVEXioVrick 23:25:29.760983 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:29.761096 raft.go:856: server: 1 append lastapplied: 0
+R2hEOe2Z5FVEXioVrick 23:25:29.784472 raft.go:304: recieve appendEntrie from leader:3, with AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} ], LeaderCommit = 1]
+R2hEOe2Z5FVEXioVrick 23:25:29.784533 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:29.784695 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:29.784719 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:29.811415 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:29.811485 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:29.862481 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:29.862600 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:29.885685 raft.go:304: recieve appendEntrie from leader:3, with AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} ], LeaderCommit = 1]
+R2hEOe2Z5FVEXioVrick 23:25:29.885754 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:29.885964 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:29.885995 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:29.913686 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:29.913711 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:29.964711 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:29.964750 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:29.987023 raft.go:304: recieve appendEntrie from leader:3, with AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} ], LeaderCommit = 1]
+R2hEOe2Z5FVEXioVrick 23:25:29.987074 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:29.987161 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:29.987182 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:30.015689 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.015784 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:30.066810 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.066898 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:30.088862 raft.go:304: recieve appendEntrie from leader:3, with AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} ], LeaderCommit = 1]
+R2hEOe2Z5FVEXioVrick 23:25:30.088900 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.088960 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.088985 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:30.117884 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.117970 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:30.168409 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.168476 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:30.189360 raft.go:304: recieve appendEntrie from leader:3, with AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} ], LeaderCommit = 1]
+R2hEOe2Z5FVEXioVrick 23:25:30.189414 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.189640 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.189660 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:30.219439 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.219493 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:30.270498 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.270592 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:30.290866 raft.go:304: recieve appendEntrie from leader:3, with AppendEntriesArgs[Term = 1, LeaderId = 3, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} ], LeaderCommit = 1]
+R2hEOe2Z5FVEXioVrick 23:25:30.290913 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.291111 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.291126 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:30.321008 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.321130 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:30.372131 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.372246 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:30.423142 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.423251 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:30.473564 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.473728 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:30.524628 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.524771 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:30.576400 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.576420 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:30.626784 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}]
+R2hEOe2Z5FVEXioVrick 23:25:30.626958 raft.go:856: server: 1 append lastapplied: 1
+R2hEOe2Z5FVEXioVrick 23:25:31.089638 raft.go:413: leader receiver success from 2 on index: 2
+R2hEOe2Z5FVEXioVrick 23:25:31.089650 raft.go:413: leader receiver success from 0 on index: 2
+R2hEOe2Z5FVEXioVrick 23:25:31.099373 raft.go:765: leader appended logentry: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}]
+R2hEOe2Z5FVEXioVrick 23:25:31.099464 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} ], LeaderCommit = 1] to 0
+R2hEOe2Z5FVEXioVrick 23:25:31.099511 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} ], LeaderCommit = 1] to 2
+R2hEOe2Z5FVEXioVrick 23:25:31.099551 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} ], LeaderCommit = 1] to 3
+R2hEOe2Z5FVEXioVrick 23:25:31.099582 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} ], LeaderCommit = 1] to 4
+R2hEOe2Z5FVEXioVrick 23:25:31.099922 raft.go:413: leader receiver success from 0 on index: 1
+R2hEOe2Z5FVEXioVrick 23:25:31.099963 raft.go:802: reply with: true on term: 3, from: 0
+R2hEOe2Z5FVEXioVrick 23:25:31.099995 raft.go:803: current term: 3
+R2hEOe2Z5FVEXioVrick 23:25:31.100015 raft.go:413: leader receiver success from 2 on index: 1
+R2hEOe2Z5FVEXioVrick 23:25:31.100017 raft.go:808: leader: 1 receive suceess from 0
+R2hEOe2Z5FVEXioVrick 23:25:31.100069 raft.go:802: reply with: true on term: 3, from: 2
+R2hEOe2Z5FVEXioVrick 23:25:31.100090 raft.go:803: current term: 3
+R2hEOe2Z5FVEXioVrick 23:25:31.100109 raft.go:808: leader: 1 receive suceess from 2
+R2hEOe2Z5FVEXioVrick 23:25:31.100135 raft.go:813: return after go applystatemachine
+R2hEOe2Z5FVEXioVrick 23:25:31.100173 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}]
+R2hEOe2Z5FVEXioVrick 23:25:31.100195 raft.go:856: server: 1 append lastapplied: 2
+R2hEOe2Z5FVEXioVrick 23:25:31.189429 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.189589 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.189619 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.189680 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.190203 raft.go:413: leader receiver success from 0 on index: 2
+R2hEOe2Z5FVEXioVrick 23:25:31.190225 raft.go:413: leader receiver success from 2 on index: 2
+R2hEOe2Z5FVEXioVrick 23:25:31.202217 raft.go:765: leader appended logentry: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}]
+R2hEOe2Z5FVEXioVrick 23:25:31.202324 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} &{201 3 3} ], LeaderCommit = 2] to 0
+R2hEOe2Z5FVEXioVrick 23:25:31.202374 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 0, PrevLogTerm = -1, Entries = [&{101 1 1} &{200 3 2} &{201 3 3} ], LeaderCommit = 2] to 2
+R2hEOe2Z5FVEXioVrick 23:25:31.202428 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} ], LeaderCommit = 2] to 3
+R2hEOe2Z5FVEXioVrick 23:25:31.202461 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} ], LeaderCommit = 2] to 4
+R2hEOe2Z5FVEXioVrick 23:25:31.202797 raft.go:413: leader receiver success from 0 on index: 1
+R2hEOe2Z5FVEXioVrick 23:25:31.202825 raft.go:802: reply with: true on term: 3, from: 0
+R2hEOe2Z5FVEXioVrick 23:25:31.202853 raft.go:803: current term: 3
+R2hEOe2Z5FVEXioVrick 23:25:31.202875 raft.go:808: leader: 1 receive suceess from 0
+R2hEOe2Z5FVEXioVrick 23:25:31.202890 raft.go:413: leader receiver success from 2 on index: 1
+R2hEOe2Z5FVEXioVrick 23:25:31.202921 raft.go:802: reply with: true on term: 3, from: 2
+R2hEOe2Z5FVEXioVrick 23:25:31.202945 raft.go:803: current term: 3
+R2hEOe2Z5FVEXioVrick 23:25:31.202965 raft.go:808: leader: 1 receive suceess from 2
+R2hEOe2Z5FVEXioVrick 23:25:31.202996 raft.go:813: return after go applystatemachine
+R2hEOe2Z5FVEXioVrick 23:25:31.203032 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}]
+R2hEOe2Z5FVEXioVrick 23:25:31.203059 raft.go:856: server: 1 append lastapplied: 3
+R2hEOe2Z5FVEXioVrick 23:25:31.289893 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:31.290050 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:31.290086 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.290109 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.290705 raft.go:413: leader receiver success from 0 on index: 3
+R2hEOe2Z5FVEXioVrick 23:25:31.290735 raft.go:413: leader receiver success from 2 on index: 3
+R2hEOe2Z5FVEXioVrick 23:25:31.391188 raft.go:724: nextindex - 1 = 0
+R2hEOe2Z5FVEXioVrick 23:25:31.391361 raft.go:724: nextindex - 1 = 0
+R2hEOe2Z5FVEXioVrick 23:25:31.391434 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.391465 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.392045 raft.go:413: leader receiver success from 2 on index: 1
+R2hEOe2Z5FVEXioVrick 23:25:31.392051 raft.go:413: leader receiver success from 0 on index: 1
+R2hEOe2Z5FVEXioVrick 23:25:31.492582 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:31.492752 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:31.492796 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.492829 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.493416 raft.go:413: leader receiver success from 0 on index: 3
+R2hEOe2Z5FVEXioVrick 23:25:31.493424 raft.go:413: leader receiver success from 2 on index: 3
+R2hEOe2Z5FVEXioVrick 23:25:31.593712 raft.go:724: nextindex - 1 = 0
+R2hEOe2Z5FVEXioVrick 23:25:31.593872 raft.go:724: nextindex - 1 = 0
+R2hEOe2Z5FVEXioVrick 23:25:31.593913 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.593943 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.594661 raft.go:413: leader receiver success from 2 on index: 1
+R2hEOe2Z5FVEXioVrick 23:25:31.594671 raft.go:413: leader receiver success from 0 on index: 1
+R2hEOe2Z5FVEXioVrick 23:25:31.694477 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:31.694615 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:31.694645 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.694723 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.695163 raft.go:413: leader receiver success from 0 on index: 3
+R2hEOe2Z5FVEXioVrick 23:25:31.695174 raft.go:413: leader receiver success from 2 on index: 3
+R2hEOe2Z5FVEXioVrick 23:25:31.795824 raft.go:724: nextindex - 1 = 0
+R2hEOe2Z5FVEXioVrick 23:25:31.795928 raft.go:724: nextindex - 1 = 0
+R2hEOe2Z5FVEXioVrick 23:25:31.796016 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.796042 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.796392 raft.go:413: leader receiver success from 0 on index: 1
+R2hEOe2Z5FVEXioVrick 23:25:31.796399 raft.go:413: leader receiver success from 2 on index: 1
+R2hEOe2Z5FVEXioVrick 23:25:31.806360 raft.go:765: leader appended logentry: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 3, Command: 300}, {Term: 3, Command: 301}]
+R2hEOe2Z5FVEXioVrick 23:25:31.806429 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 2, PrevLogTerm = 3, Entries = [&{201 3 3} &{300 3 4} &{301 3 5} ], LeaderCommit = 3] to 0
+R2hEOe2Z5FVEXioVrick 23:25:31.806464 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 2, PrevLogTerm = 3, Entries = [&{201 3 3} &{300 3 4} &{301 3 5} ], LeaderCommit = 3] to 2
+R2hEOe2Z5FVEXioVrick 23:25:31.806499 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{300 3 4} &{301 3 5} ], LeaderCommit = 3] to 3
+R2hEOe2Z5FVEXioVrick 23:25:31.806531 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{300 3 4} &{301 3 5} ], LeaderCommit = 3] to 4
+R2hEOe2Z5FVEXioVrick 23:25:31.806615 raft.go:765: leader appended logentry: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 3, Command: 300}, {Term: 3, Command: 301}]
+R2hEOe2Z5FVEXioVrick 23:25:31.806677 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 2, PrevLogTerm = 3, Entries = [&{201 3 3} &{300 3 4} &{301 3 5} ], LeaderCommit = 3] to 0
+R2hEOe2Z5FVEXioVrick 23:25:31.806716 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 2, PrevLogTerm = 3, Entries = [&{201 3 3} &{300 3 4} &{301 3 5} ], LeaderCommit = 3] to 2
+R2hEOe2Z5FVEXioVrick 23:25:31.806751 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{300 3 4} &{301 3 5} ], LeaderCommit = 3] to 3
+R2hEOe2Z5FVEXioVrick 23:25:31.806786 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{300 3 4} &{301 3 5} ], LeaderCommit = 3] to 4
+R2hEOe2Z5FVEXioVrick 23:25:31.807136 raft.go:413: leader receiver success from 2 on index: 3
+R2hEOe2Z5FVEXioVrick 23:25:31.807158 raft.go:802: reply with: true on term: 3, from: 2
+R2hEOe2Z5FVEXioVrick 23:25:31.807208 raft.go:803: current term: 3
+R2hEOe2Z5FVEXioVrick 23:25:31.807227 raft.go:808: leader: 1 receive suceess from 2
+R2hEOe2Z5FVEXioVrick 23:25:31.807215 raft.go:413: leader receiver success from 2 on index: 3
+R2hEOe2Z5FVEXioVrick 23:25:31.807253 raft.go:802: reply with: true on term: 3, from: 2
+R2hEOe2Z5FVEXioVrick 23:25:31.807270 raft.go:803: current term: 3
+R2hEOe2Z5FVEXioVrick 23:25:31.807303 raft.go:808: leader: 1 receive suceess from 2
+R2hEOe2Z5FVEXioVrick 23:25:31.897022 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:31.897276 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:31.897299 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.897314 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.898109 raft.go:413: leader receiver success from 2 on index: 3
+R2hEOe2Z5FVEXioVrick 23:25:31.998438 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:31.998584 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:31.998705 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.998728 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:31.999194 raft.go:413: leader receiver success from 2 on index: 3
+R2hEOe2Z5FVEXioVrick 23:25:32.099876 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.099995 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.100028 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.100054 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.100857 raft.go:413: leader receiver success from 2 on index: 3
+R2hEOe2Z5FVEXioVrick 23:25:32.201177 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.201312 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.201351 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.201377 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.202052 raft.go:413: leader receiver success from 2 on index: 3
+R2hEOe2Z5FVEXioVrick 23:25:32.302508 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.302624 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.302656 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.302683 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.303380 raft.go:413: leader receiver success from 2 on index: 3
+R2hEOe2Z5FVEXioVrick 23:25:32.402870 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.403039 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.403071 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.403094 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.504190 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.504324 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.504383 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.504418 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.604726 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.604985 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.605072 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.605098 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.705764 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.705919 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.705949 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.705975 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.806257 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.806385 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.806421 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.806445 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.907044 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.907133 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:32.907164 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:32.907190 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.007554 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.007748 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.007817 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.007847 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.108914 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.109092 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.109139 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.109170 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.210234 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.210375 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.210407 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.210436 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.311488 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.311607 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.311694 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.311733 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.412852 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.412932 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.413009 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.413039 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.513875 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.514001 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.514034 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.514058 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.614577 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.614745 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.614819 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.614849 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.714992 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.715140 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.715172 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.715200 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.815412 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.815573 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.815650 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.815680 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.916790 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.917019 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:33.917056 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:33.917084 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.017596 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.017766 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.017812 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.017839 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.118448 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.118582 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.118619 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.118644 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.219698 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.219867 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.219902 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.219928 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.320842 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.320976 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.321007 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.321032 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.421869 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.422031 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.422064 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.422089 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.522238 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.522405 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.522441 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.522468 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.623124 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.623245 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.623284 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.623313 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.723417 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.723543 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.723576 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.723602 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.823986 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.824142 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.824190 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.824225 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.924499 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.924720 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:34.924759 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:34.924786 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.024999 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.025074 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.025107 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.025133 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.125252 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.125429 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.125473 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.125504 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.226584 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.226770 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.226809 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.226867 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.326957 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.327164 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.327201 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.327229 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.427756 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.427951 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.427993 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.428019 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.529096 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.529233 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.529269 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.529298 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.630106 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.630264 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.630294 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.630313 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.731363 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.731462 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.731521 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.731540 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.831826 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.831942 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.831988 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.832015 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.932068 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.932171 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:35.932198 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:35.932219 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.033355 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.033452 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.033482 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.033503 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.134018 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.134112 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.134162 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.134180 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.235275 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.235476 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.235505 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.235521 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.336583 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.336770 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.336805 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.336830 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.437833 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.438065 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.438114 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.438142 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.538518 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.538683 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.538718 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.538744 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.639419 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.639533 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.639566 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.639593 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.740664 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.740864 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.740940 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.740973 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.841819 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.841975 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.842046 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.842079 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.943563 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.944134 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:36.944192 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:36.944220 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.045639 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.045757 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.045783 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.045810 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.146906 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.147232 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.147438 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.147462 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.248489 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.248634 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.248660 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.248729 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.348778 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.348915 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.348947 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.348967 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.449860 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.449976 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.450020 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.450051 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.550515 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.550620 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.550732 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.550752 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.650971 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.651118 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.651187 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.651214 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.752284 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.752450 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.752494 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.752521 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.853618 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.853747 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.853830 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.853868 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.954990 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.955277 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:37.955316 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:37.955343 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.055512 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.055682 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.055719 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.055756 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.156340 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.156489 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.156532 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.156570 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.257663 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.257840 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.257925 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.257964 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.359041 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.359235 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.359315 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.359355 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.459840 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.459916 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.459936 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.459949 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.560999 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.561205 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.561254 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.561287 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.662056 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.662199 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.662239 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.662269 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.762788 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.762902 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.762996 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.763035 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.863675 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.863763 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.863801 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.863878 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.964435 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.964588 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:38.964625 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:38.964650 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.065209 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.065295 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.065332 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.065365 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.165419 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.165548 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.165584 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.165609 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.266038 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.266239 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.266284 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.266316 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.367399 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.367572 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.367606 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.367630 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.468767 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.468999 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.469047 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.469074 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.569808 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.569988 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.570027 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.570053 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.671215 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.671420 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.671509 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.671542 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.772615 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.772812 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.772942 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.772976 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.873881 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.873987 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.874050 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.874078 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.974329 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.974496 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:39.974525 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:39.974547 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.075665 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.075882 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.075945 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.075971 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.176971 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.177114 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.177148 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.177174 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.278249 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.278397 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.278464 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.278496 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.378583 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.378656 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.378687 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.378709 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.479765 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.479862 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.479885 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.479896 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.580147 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.580292 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.580335 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.580365 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.680796 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.680951 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.681048 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.681088 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.781898 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.782096 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.782143 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.782171 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.882263 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.882497 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.882549 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.882579 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.983366 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.983561 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:40.983743 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:40.983782 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.084722 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.084870 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.084905 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.084930 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.186039 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.186162 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.186196 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.186220 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.287080 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.287330 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.287380 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.287409 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.388555 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.388775 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.388849 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.388899 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.488970 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.489152 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.489228 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.489260 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.589466 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.589663 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.589704 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.589730 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.690263 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.690472 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.690500 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.690526 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.791138 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.791277 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.791302 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.791342 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.891767 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.891950 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.891998 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.892027 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.993107 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.993304 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:41.993381 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:41.993414 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:42.094479 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:42.094604 raft.go:724: nextindex - 1 = 2
+R2hEOe2Z5FVEXioVrick 23:25:42.094644 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:42.094670 raft.go:724: nextindex - 1 = 1
+R2hEOe2Z5FVEXioVrick 23:25:42.178580 raft.go:765: leader appended logentry: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 3, Command: 300}, {Term: 3, Command: 301}, {Term: 3, Command: 500}]
+R2hEOe2Z5FVEXioVrick 23:25:42.178712 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 2, PrevLogTerm = 3, Entries = [&{201 3 3} &{300 3 4} &{301 3 5} &{500 3 6} ], LeaderCommit = 3] to 0
+R2hEOe2Z5FVEXioVrick 23:25:42.178803 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 2, PrevLogTerm = 3, Entries = [&{201 3 3} &{300 3 4} &{301 3 5} &{500 3 6} ], LeaderCommit = 3] to 2
+R2hEOe2Z5FVEXioVrick 23:25:42.178852 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{300 3 4} &{301 3 5} &{500 3 6} ], LeaderCommit = 3] to 3
+R2hEOe2Z5FVEXioVrick 23:25:42.178936 raft.go:786: leader sent appendarg: AppendEntriesArgs[Term = 3, LeaderId = 1, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{300 3 4} &{301 3 5} &{500 3 6} ], LeaderCommit = 3] to 4
+R2hEOe2Z5FVEXioVrick 23:25:42.229372 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 3, Command: 300}, {Term: 3, Command: 301}, {Term: 3, Command: 500}]
+R2hEOe2Z5FVEXioVrick 23:25:42.229441 raft.go:856: server: 1 append lastapplied: 3
+R2hEOe2Z5FVEXioVrick 23:25:42.259916 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 3, PrevLogTerm = 3, Entries = [&{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:42.259936 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.259994 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.260007 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.279709 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.279795 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.330167 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.330249 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.360901 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:42.360950 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.361006 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.361023 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.381203 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.381263 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.432040 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.432107 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.461642 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 3, PrevLogTerm = 3, Entries = [&{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:42.461694 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.461753 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.461798 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.482179 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.482278 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.532585 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.532643 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.562393 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:42.562437 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.562514 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.562537 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.583638 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.583705 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.634085 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.634147 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.663648 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 3, PrevLogTerm = 3, Entries = [&{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:42.663696 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.663882 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.663909 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.684939 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.685014 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.735119 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.735205 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.764756 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:42.764807 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.764938 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.764956 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.786061 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.786130 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.836100 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.836196 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.866028 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 3, PrevLogTerm = 3, Entries = [&{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:42.866087 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.866160 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.866182 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.886949 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.887036 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.937985 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.938086 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.966143 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:42.966178 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.966299 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.966308 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:42.988529 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:42.988628 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.039041 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.039140 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.067239 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 3, PrevLogTerm = 3, Entries = [&{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:43.067310 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.067351 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.067363 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.089622 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.089711 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.140450 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.140554 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.168469 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:43.168517 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.168647 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.168666 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.190740 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.190819 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.240834 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.240906 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.268575 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 3, PrevLogTerm = 3, Entries = [&{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:43.268627 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.268843 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.268863 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.290915 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.290963 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.341358 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.341532 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.369895 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:43.369943 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.370157 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.370176 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.391835 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.391904 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.442142 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.442185 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.470872 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 3, PrevLogTerm = 3, Entries = [&{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:43.470892 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.470983 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.470991 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.492193 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.492235 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.542465 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.542529 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.571825 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:43.571874 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.572320 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.572339 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.593077 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.593189 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.643106 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.643217 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.672311 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 3, PrevLogTerm = 3, Entries = [&{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:43.672371 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.672517 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.672534 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.694198 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.694259 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.745256 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.745360 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.773339 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:43.773385 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.773730 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.773751 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.796298 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.796376 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.847360 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.847462 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.874239 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 3, PrevLogTerm = 3, Entries = [&{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:43.874295 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.874541 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.874572 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.898405 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.898457 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.948545 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.948653 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.974735 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:43.974803 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.975024 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.975051 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:43.999180 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:43.999271 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:44.050261 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:44.050351 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:44.076512 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 3, PrevLogTerm = 3, Entries = [&{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:44.076545 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:44.076618 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:44.076636 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:44.100699 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:44.100812 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:44.151175 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:44.151289 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:44.176777 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 1, PrevLogTerm = 1, Entries = [&{200 3 2} &{201 3 3} &{400 29 4} &{401 29 5} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:44.176831 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:44.176943 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}]
+R2hEOe2Z5FVEXioVrick 23:25:44.176966 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:44.179534 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 3, PrevLogTerm = 3, Entries = [&{400 29 4} &{401 29 5} &{500 29 6} ], LeaderCommit = 5]
+R2hEOe2Z5FVEXioVrick 23:25:44.179569 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}, {Term: 29, Command: 500}]
+R2hEOe2Z5FVEXioVrick 23:25:44.179867 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}, {Term: 29, Command: 500}]
+R2hEOe2Z5FVEXioVrick 23:25:44.179887 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:44.201290 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}, {Term: 29, Command: 500}]
+R2hEOe2Z5FVEXioVrick 23:25:44.201379 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:44.252387 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}, {Term: 29, Command: 500}]
+R2hEOe2Z5FVEXioVrick 23:25:44.252501 raft.go:856: server: 1 append lastapplied: 5
+R2hEOe2Z5FVEXioVrick 23:25:44.278009 raft.go:304: recieve appendEntrie from leader:0, with AppendEntriesArgs[Term = 29, LeaderId = 0, PrevLogIndex = 2, PrevLogTerm = 3, Entries = [&{201 3 3} &{400 29 4} &{401 29 5} &{500 29 6} ], LeaderCommit = 6]
+R2hEOe2Z5FVEXioVrick 23:25:44.278049 raft.go:360: server has entries after append in appenetr:[{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}, {Term: 29, Command: 500}]
+R2hEOe2Z5FVEXioVrick 23:25:44.278126 raft.go:845: in apply server: 1, has entries: [{Term: -1, Command: <nil>}, {Term: 1, Command: 101}, {Term: 3, Command: 200}, {Term: 3, Command: 201}, {Term: 29, Command: 400}, {Term: 29, Command: 401}, {Term: 29, Command: 500}]
+R2hEOe2Z5FVEXioVrick 23:25:44.278148 raft.go:856: server: 1 append lastapplied: 6
